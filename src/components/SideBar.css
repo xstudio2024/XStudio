@@ -1,0 +1,59 @@
+.side-bar {
+    width: 200px;             
+    max-width: 300px;         
+    padding: 20px;             
+    overflow-y: hidden;         
+    border-right: 1px solid #007BFF;
+  }
+  
+  .context {
+    list-style: none;         
+    padding: 10px;
+  }
+  
+  .context li {
+    margin-bottom: 15px;       
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;      
+    word-wrap: break-word;      
+  }
+  
+  .link:hover {
+    color: #007BFF;             
+  }
+  
+  .side-bar {
+    height: 100vh;              
+    overflow-y: auto;           
+  }
+  .side-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .search{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  input{
+    border: none;
+    width: 8rem;
+    font-size: 15px;
+  }
+
+  input:focus {
+    border: none; 
+    outline: none; 
+}
+
+  #search-icon{
+    height: 20px;
+    width: 45px;
+  }

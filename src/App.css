@@ -1,0 +1,15 @@
+#root {
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+.content {
+  flex: 1; /* Takes up the remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling if the content overflows */
+  background-color: #fff;
+}

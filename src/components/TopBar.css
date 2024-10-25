@@ -1,0 +1,12 @@
+.container{
+    position: sticky;
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+}
